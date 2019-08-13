@@ -1,0 +1,9 @@
+{
+  "name": "@qily/apollo-ui",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "rxjs": "^6.5.2"
+  }
+}
