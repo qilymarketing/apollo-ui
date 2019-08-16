@@ -89,3 +89,4 @@ typings/
 
 .certs
 dist
+lib

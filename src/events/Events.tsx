@@ -1,5 +1,6 @@
-import React, { createContext, ReactNode } from "react";
+import React, { ReactNode } from "react";
 import { Subject } from "rxjs";
+import EventsContext from "./EventContext";
 
 interface UI_Event {
   type: string;
@@ -11,8 +12,6 @@ interface UI_Event {
  * Global Events stream
  */
 const Events$ = new Subject<UI_Event>();
-
-export const EventsContext = createContext(Events$);
 
 /**
  * Events Provider
